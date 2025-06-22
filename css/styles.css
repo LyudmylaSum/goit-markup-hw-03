@@ -25,6 +25,10 @@ ol {
 a {
   text-decoration: none;
 }
+img{
+  display: block;
+}
+
 .container {
   max-width: 1158px;
   margin: 0 auto;
@@ -140,7 +144,13 @@ a {
   padding: 120px 0;
 }
 .visually-hidden{
-  visibility: hidden;
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .skills-list {
   display: flex;
