@@ -112,6 +112,7 @@ img{
 }
 
 .page-title {
+  margin: 0 auto 48px;
   max-width: 496px; 
   font-size: 56px;
   line-height: 1.07;
@@ -120,6 +121,7 @@ img{
   color: #fff;
 }
 .page-button-class {
+  margin: 0 auto; 
   display: block;
   min-width: 169px;
   height: 56px;
